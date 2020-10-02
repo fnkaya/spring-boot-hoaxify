@@ -1,0 +1,17 @@
+#DataSource Configuration
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hoaxify
+    username: postgres
+    password: kurfaya13
+
+  jpa:
+    show-sql: true
+    properties:
+      javax:
+        persistence:
+          validation:
+            mode: none
+    hibernate:
+      ddl-auto: update
+
